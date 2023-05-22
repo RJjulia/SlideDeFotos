@@ -31,7 +31,17 @@ body{
     transition: 2s;
 }
 
+.slide1{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
 .slide img{
+    width: 800px;
+}
+
+.slide1 img{
     width: 800px;
 }
 
