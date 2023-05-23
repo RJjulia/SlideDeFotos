@@ -85,7 +85,7 @@ body{
     margin-left: -75%;
 }
 
-.navegacaoSlides div{
+.navegacaoSlide div{
     border: 2px solid #fff2;
     padding: 5px;
     border-radius: 10px;
@@ -93,7 +93,7 @@ body{
     transition: 1s;
 }
 
-.navegacaoSlides{
+.navegacaoSlide{
     position: absolute;
     width: 800px;
     margin-top: 360px;
@@ -101,23 +101,23 @@ body{
     justify-content: center;
 }
 
-.navegacaoSlides div:not(:last-child){
+.navegacaoSlide div:not(:last-child){
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navegacaoSlides .auto-btn1{
+#radio1:checked ~ .navegacaoSlide .auto-btn1{
     background-color: #ffff;
 }
 
-#radio2:checked ~ .navegacaoSlides .auto-btn2{
+#radio2:checked ~ .navegacaoSlide .auto-btn2{
     background-color: #ffff;
 }
 
-#radio3:checked ~ .navegacaoSlides .auto-btn3{
+#radio3:checked ~ .navegacaoSlide .auto-btn3{
     background-color: #ffff;
 }
 
-#radio4:checked ~ .navegacaoSlides .auto-btn4{
+#radio4:checked ~ .navegacaoSlide .auto-btn4{
     background-color: #ffff;
 }
 
